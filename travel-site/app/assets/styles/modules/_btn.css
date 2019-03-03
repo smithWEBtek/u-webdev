@@ -1,0 +1,7 @@
+.btn {
+  background-color: $mainBlue;
+  color: white;
+  padding: 1.2rem;
+  text-decoration: none;
+  display: inline;
+}
