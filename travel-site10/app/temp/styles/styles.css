@@ -749,12 +749,14 @@ a {
   font-size: 2.55rem;
   font-weight: 300;
   text-align: center;
+
 }
 
 @media (min-width: 530px) {
 
 .section-title {
     font-size: 3.75rem
+
 }
   }
 
@@ -775,21 +777,19 @@ a {
       margin-right: .5rem;
       margin-left: 0;
       margin-bottom: 0;
-      display: inline
+      display: inline-block
   }
   }
 
 .feature-item {
   position: relative;
   padding-bottom: 2.5rem;
-
 }
 
 @media (min-width: 530px) {
 
 .feature-item {
     padding-left: 94px
-
 }
   }
 
@@ -817,8 +817,8 @@ a {
 @media (min-width: 530px) {
 
 .feature-item__title {
+      text-align: left;
       margin-top: 1em;
-      font-size: 1.875rem;
-      text-align: left
+      font-size: 1.875rem
   }
   }
