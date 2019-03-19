@@ -17,3 +17,4 @@ var myDogPhoto = 'https://raw.githubusercontent.com/LearnWebCode/welcome-to-git/
 https.get(myDogPhoto, function (response) {
   response.pipe(fs.createWriteStream(__dirname + "/myDogPhoto.jpeg"))
 });
+
